@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "573584464318",
+    "project_id": "yukparkir-ead06",
+    "storage_bucket": "yukparkir-ead06.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573584464318:android:1c80057595d9e10f83c1ef",
+        "android_client_info": {
+          "package_name": "com.example.parkir"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PYbi3vgWnqZzQhhOJi0Go2n2dT8cpNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573584464318:android:5004ae9d9385d2eb83c1ef",
+        "android_client_info": {
+          "package_name": "com.example.parkir_yukk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0PYbi3vgWnqZzQhhOJi0Go2n2dT8cpNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
