@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parkiryuk!! - Zona Mobil</title>
+  <link rel="stylesheet" href="zona mobil.css" />
+</head>
+<body>
+
+    <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="logo-sidebar">
+        <img src="logo parkiryukk.png" alt="Logo" class="logo-img">
+        <h2>Parkiryuk!!</h2>
+      </div>
+      <nav class="menu">
+        <a href="#" class="actPive"><span></span> Beranda</a>
+        <a href="#"><span></span> Monitoring</a>
+        <a href="#"><span></span> Log Out</a>
+      </nav>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+      <div class="top-bar">
+        <span class="admin-info">Admin 1</span>
+        <span class="admin-icon">👤</span>
+      </div>
+
+      <h1>Zona Parkir Mobil</h1>
+
+      <!-- Gate A -->
+      <div class="gate">
+        <h2>GATE A</h2>
+        <div class="slot-row">
+          <div class="slot available" onclick="toggleStatus(this)"></div>
+          <div class="slot available" onclick="toggleStatus(this)"></div>
+          <div class="slot available" onclick="toggleStatus(this)"></div>
+          <div class="slot occupied" onclick="toggleStatus(this)"></div>
+          <div class="slot available" onclick="toggleStatus(this)"></div>
+        </div>
+      </div>
+
+      <!-- Gate B -->
+      <div class="gate">
+        <h2>GATE B</h2>
+        <div class="slot-row">
+          <div class="slot available" onclick="toggleStatus(this)"></div>
+          <div class="slot occupied" onclick="toggleStatus(this)"></div>
+          <div class="slot occupied" onclick="toggleStatus(this)"></div>
+          <div class="slot available" onclick="toggleStatus(this)"></div>
+          <div class="slot available" onclick="toggleStatus(this)"></div>
+        </div>
+      </div>
+
+      <!-- Keterangan -->
+      <div class="legend">
+        <div><span class="circle green"></span> Tersedia</div>
+        <div><span class="circle red"></span> Terisi</div>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function toggleStatus(element) {
+      element.classList.toggle("available");
+      element.classList.toggle("occupied");
+    }
+  </script>
+</body>
+</html>

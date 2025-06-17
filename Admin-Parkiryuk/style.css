@@ -1,0 +1,75 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Georgia', serif;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.logo {
+  margin-top: 40px;
+}
+
+.pin {
+  width: 80px;
+  height: 100px;
+  background-color: #ffb700;
+  border: 2px solid #000;
+  border-radius: 50% 50% 50% 0;
+  transform: rotate(45deg);
+  margin: 0 auto;
+  position: relative;
+}
+
+.pin-text {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 40px;
+  font-weight: normal;
+  color: white;
+  transform: rotate(-45deg);
+}
+
+h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.login-box {
+  background-color: #ffb700;
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  border-radius: 25px;
+  text-align: left;
+}
+
+.login-box label {
+  font-weight: bold;
+  display: block;
+  margin-top: 10px;
+}
+
+.login-box input {
+  width: 90%;               /* Lebar dikurangi agar tidak mentok ke sisi */
+  padding: 12px 15px;       /* Tinggi dan jarak teks ke pinggir */
+  border: none;
+  margin-top: 5px;
+  border-radius: 20px;
+}
+
+.login-box button {
+  display: block;
+  margin: 20px auto 0;
+  padding: 10px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 15px;
+  background-color: #f1f1f1;
+  color: black;
+  cursor: pointer;
+  font-family: 'Georgia', serif;
+}

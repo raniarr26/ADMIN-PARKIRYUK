@@ -1,0 +1,121 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  background-color: #f8f8f8;
+}
+
+.container {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 200px;
+  background-color: #ffb700;
+  height: 100vh;
+  padding: 20px;
+  color: black;
+}
+
+.logo-sidebar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo-sidebar h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.logo-img {
+  width: 40px;
+  height: auto;
+}
+
+.menu a {
+  display: block;
+  padding: 10px 15px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.menu a span {
+  margin-right: 8px;
+}
+
+.menu a.active,
+.menu a:hover {
+  background-color: #ddd;
+}
+
+/* Main Content */
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.admin-info {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.admin-icon {
+  font-size: 20px;
+}
+
+/* Filter Buttons */
+.filter-panel {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.filter-group button {
+  padding: 8px 16px;
+  margin: 5px;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+/* Table */
+.table-section {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ddd;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: orange;
+  font-weight: bold;
+}
